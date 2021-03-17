@@ -38,4 +38,4 @@ $ mv composer.phar composer
 
 ## Using the client library
 
-See examples
+See examples (NOTE: Change upercase strings with appropiated values).
