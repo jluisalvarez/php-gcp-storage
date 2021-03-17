@@ -6,7 +6,7 @@ require_once 'vendor/autoload.php';
 
 use Google\Cloud\Storage\StorageClient;
 
-$projectId = 'cc2021-307109';
+$projectId = 'ID_PROJECT';
 
 $storage = new StorageClient([
     'projectId' => $projectId
@@ -19,8 +19,8 @@ foreach ($buckets as $bucket) {
     echo "<p>" . $bucket->name() . "</p>";
 }
 
-$bucketName = 'depositocc2021';
-printf("<h2>Contenido Bucket " . $bucketName . "</h2>");
+$bucketName = 'BUCKETNAME';
+printf("<h2>Contents of Bucket " . $bucketName . "</h2>");
 $bucket = $storage->bucket($bucketName);
 $objects = $bucket->objects();
 printf("<ul>");
