@@ -1,4 +1,4 @@
-# PHP with Google Cloud Storage
+# PHP with Google Cloud Storage and SQL Cloud
 
 Source: https://cloud.google.com/storage/docs/reference/libraries#client-libraries-install-php
 

@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+
 <html>
 	<head>
 		<title>Mi blog</title>
 		<meta charset="UTF8" />
 	</head>
-	
+
 	<body>
 		<h1>Welcome to my blog</h1>
 		<img src="https://storage.googleapis.com/BUCKETNAME/FILEIMG.jpg" />
